@@ -1,0 +1,16 @@
+{
+  "name": "editor-pro-max",
+  "version": "1.0.0",
+  "description": "Editor Pro Max - Image generation with Gemini Imagen 3",
+  "private": true,
+  "scripts": {
+    "generate-image": "npx tsx scripts/generate-image.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
